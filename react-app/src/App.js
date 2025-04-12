@@ -1,33 +1,3 @@
-// import React from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Header from "./Component/Header/Header";
-// import Footer from "./Component/Footer/Footer";
-// import CategorySlider from "./Component/Category";
-// import CategoryPage from "./Component/CategoryPage";
-// import AdminPanel from "./Component/AdminPanel";
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="app-container">
-//         <Header />
-//         <Routes>
-//           <Route path="/" element={<CategorySlider />} />
-//           <Route path="/category/:category" element={<CategoryPage />} /> {/* ✅ Dynamic category route */}
-//           <Route path="/admin" element={<AdminPanel />} />
-//         </Routes>
-//         <Footer />
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
-
-
-
-
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Header from "./Component/Header/Header";
