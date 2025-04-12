@@ -95,9 +95,9 @@ export const getProductsByCategory = async (category) => {
   try {
     const encodedCategory = encodeURIComponent(category); // Ensure correct URL encoding
     console.log("Fetching category:", category); // Debugging
-
+    console.log(`${API_URL}?category=${encodedCategory}`);
     const response = await axios.get(`${API_URL}?category=${encodedCategory}`);
-    
+    console.log(response);
     console.log("API Response:", response.data); // Debugging
 
     return response.data.products || [];
